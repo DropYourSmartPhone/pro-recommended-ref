@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "kotlin",
+    "home_page_url": "",
+    "feed_url": "",
+    "items": [
+        {
+            "title": "SwiftUI meets Kotlin Multiplatform",
+            "url": "https://johnoreilly.dev/2019/06/08/swiftui-meetings-kotlin-multiplatform.html"
+        },
+        {
+            "title": "The Dos and Dont’s of Mobile Development with Kotlin Multiplatform",
+            "url": "https://medium.com/@icerock/the-dos-and-donts-of-mobile-development-with-kotlin-multiplatform-db7c098545c0"
+        }
+    ]
+}
