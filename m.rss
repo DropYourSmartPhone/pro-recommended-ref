@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>multiplatform</title>
+  <link></link>
+  <description></description>
+  <item>
+    <title>SwiftUI meets Kotlin Multiplatform</title>
+    <link>https://johnoreilly.dev/2019/06/08/swiftui-meetings-kotlin-multiplatform.html</link>
+    <description></description>
+  </item>
+  <item>
+    <title>The Dos and Dont’s of Mobile Development with Kotlin Multiplatform</title>
+    <link>https://medium.com/@icerock/the-dos-and-donts-of-mobile-development-with-kotlin-multiplatform-db7c098545c0</link>
+    <description></description>
+  </item>
+  <item>
+    <title>Cross platform development talk with Jesse Wilson</title>
+    <link>https://fragmentedpodcast.com/episodes/166/</link>
+    <description></description>
+  </item>
+</channel>
+
+</rss>
