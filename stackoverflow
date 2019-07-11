@@ -1,0 +1,8 @@
+
+t: Error & Exception
+  refs:
+  - https://stackoverflow.com/questions/912334/differences-between-exception-and-error
+  - https://stackoverflow.com/questions/5813614/what-is-difference-between-errors-and-exceptions
+  comments:
+  - unchecked 指的是无需在java的方法声明中指出，RuntimeException和Error就是此类，一般无需捕获，app直接crash退出
+
