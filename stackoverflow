@@ -1,4 +1,9 @@
-
+t: LinkedHashMap
+  refs:
+  - https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-linked-hash-map/index.html
+  - https://stackoverflow.com/questions/56870158/hashmap-or-list-in-kotlin-when-size-is-only-20
+  comments:
+  - LinkedHashMap是一个有序的HashMa，保持add的时候的顺序，每个item增加了两个pointer， double linked
 t: Error & Exception
   refs:
   - https://stackoverflow.com/questions/912334/differences-between-exception-and-error
