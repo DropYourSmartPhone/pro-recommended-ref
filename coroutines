@@ -34,3 +34,4 @@ runBlocking:
 - Runs a new coroutine and blocks the current thread interruptibly until its completion. 
 - This function should not be used from a coroutine. 
 - It is designed to bridge regular blocking code to libraries that are written in suspending style, to be used in main functions and in tests.
+- If there is a launch inside, the runBlocking will not return until the launch finish.
