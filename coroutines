@@ -17,6 +17,7 @@ comments:
 - withContext(Dispatchers.Main) { }, is suspend
 - runBlocking: don't call in a coroutine, but in normal thread, espeically in Main.
 - Dispather: how to use threads to execute coroutines
+- it's important to know a function is a blocking or unblocking. A blocking is it cannot delay.
 
 vs: 
 - launch vs async
@@ -24,3 +25,7 @@ vs:
 - GlobleScope vs coroutineScope()
 - Blocking vs Non-blocking, launch/async are non-blocking, coroutineScope/withContext are blocking
 
+UI_Thread:
+- launch(Dispatchers.Main){}
+- withContext(Dispatchers.Main) {}
+- You can also call deley() inside block, because they are suspend, but they don't block UI thread, just block coroutine.
