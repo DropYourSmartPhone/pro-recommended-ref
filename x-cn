@@ -1,3 +1,6 @@
 -- comments
 kotlin: 
-- 在AS中其实是支持kts替换gradle的，简单来说就是直接替换后缀名即可，当然语法也略有不同。就像kotlin是android的官方支持一样也获得了gradle官方支持。ref: https://docs.gradle.org/current/userguide/kotlin_dsl.html
+- |
+  在AS中其实是支持kts替换gradle的，简单来说就是直接替换后缀名即可，当然语法也略有不同。就像kotlin是android的官方支持一样也获得了gradle官方支持。
+  ref: https://docs.gradle.org/current/userguide/kotlin_dsl.html
+- 
