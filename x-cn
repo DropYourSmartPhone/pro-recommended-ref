@@ -4,3 +4,16 @@ kotlin:
   在AS中其实是支持kts替换groovy的，简单来说就是直接加上kts后缀名即可，当然语法也略有不同。就像kotlin是android的官方支持一样也获得了gradle官方支持。
   ref: https://docs.gradle.org/current/userguide/kotlin_dsl.html
 - 
+
+Android:
+  interview:
+    - ref: https://www.guru99.com/android-interview-questions.html
+    - AAPT2 (Android Asset Packaging Tool) is a build tool: compile resources & link
+    - An intent is an abstract description of an operation to be performed. 首先是data，然后是Android的一些data标准
+    - ANR: ANR is short for Application Not Responding.  within 5 seconds
+    - Dalvik serves as a virtual machine, and it is where every Android application runs. Current is ART
+    - AIDL: The Android Interface Definition Language (AIDL) is similar to other IDLs you might have worked with. client/service
+    - a Nine-patch image
+  interview:
+    - ref: https://android.jlelse.eu/android-interview-questions-cheat-sheet-96ea01c88def
+    - Application: Base class for maintaining global application state.
