@@ -17,3 +17,4 @@ Android:
   interview:
     - ref: https://android.jlelse.eu/android-interview-questions-cheat-sheet-96ea01c88def
     - Application: Base class for maintaining global application state.
+    - a global context: Context.getApplicationContext() 
