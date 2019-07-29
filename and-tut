@@ -1,0 +1,18 @@
+--- this is the android for the medium
+Android:
+Day-1: basic
+  - download & install android studio, sdk, emulator
+  - download source code & compile
+  - run
+  - network settings & proxy
+Day-2: app structure & files
+  - a simple project
+  - our flaship app
+  - sub modules
+  - what's the features
+  - how to organize features
+Day-3: gradle
+  - two levels of build.gradle
+  - elements
+  - groovy vs kts
+  - 
