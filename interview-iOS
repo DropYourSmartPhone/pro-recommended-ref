@@ -1,0 +1,69 @@
+# swift
+
+## basic
+- 关键字 required 的含义和使用场景
+- 关键字 optional的使用场景
+- oneInstance?.oneMethod?()
+- if case 使用的在什么地方
+
+- protocol MyNameDelegate: Class {} 的含义是什么
+- 两个ViewController之间进行参数传递的一般方法是什么？Delegate
+- swift中 copy-on-write是什么含义
+- 
+
+## types
+### protocol
+
+### struct
+- struct之间可以继承吗？为什么
+- SDK中 String是一个class还是一个struct，
+- 请举一个SDK的class名字（估计不能）
+
+
+### class
+
+### enum
+- 一般应用中， 经常让一个枚举类型派生自一个Int类型，String可以作为枚举类型吗？
+- 枚举能继承其他类型吗？
+- 
+
+## attribute
+- 请举几个swift中常用的属性attribute 
+- autoclosure 的含义和用法
+- escaping的含义
+- 
+
+## simple（泛泛的问题，查看谈吐）
+- 请举几个存在memory leak的例子
+- 请举几个让程序crash的例子
+- 你怎么让ViewController代码变得简单和干净
+- 请举几个国外的iOS常用分享知识和学习的网站
+
+
+
+# iOS
+## basic
+
+## cocoapod
+- 请问cocoapod的最新版本大概是多少
+- cocoapod的制作流程
+
+## autolayout
+- to list autolayout's 缺点
+-
+
+## thread & safe
+- 在iOS中，如果我们使用UrlSession，在发送网络请求的时候能不能在主线程里面？为什么？
+- runLoop是什么以及使用场景
+- offscreen rendering是什么意思？怎么避免
+- 
+## xcode
+- chisel是什么？
+
+
+##
+KVO 和 KVC分别是什么意思
+
+# computer
+
+# 
