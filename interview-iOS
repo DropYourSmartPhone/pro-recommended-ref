@@ -1,8 +1,21 @@
+# iOS interview 
+## warm-up questions
+- 请举几个国外的iOS常用分享知识和学习的网站
+- Autolayout的缺点
+- 你怎么让ViewController代码变得简单和干净
+- 
+## quick questions
+
+
+## advanced questions
+
+## code
+
 # swift
 
 ## basic
 - 关键字 required 的含义和使用场景
-- 关键字 optional的使用场景
+- 关键字 optional 的使用场景
 - oneInstance?.oneMethod?()
 - if case 使用的在什么地方
 
@@ -38,7 +51,6 @@
 - 请举几个让程序crash的例子
 - 你怎么让ViewController代码变得简单和干净
 - 请举几个国外的iOS常用分享知识和学习的网站
-
 
 
 # iOS
