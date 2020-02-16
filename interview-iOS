@@ -3,48 +3,34 @@
 - 请举几个国外的iOS常用分享知识和学习的网站
 - Autolayout的缺点
 - 你怎么让ViewController代码变得简单和干净
-- 
+- 请简单描述如果在swift引用objective-C代码
+
 ## quick questions
-
-
-## advanced questions
-
-## code
-
-# swift
-
-## basic
+### key words
 - 关键字 required 的含义和使用场景
 - 关键字 optional 的使用场景
 - oneInstance?.oneMethod?()
 - if case 使用的在什么地方
-
 - protocol MyNameDelegate: Class {} 的含义是什么
 - 两个ViewController之间进行参数传递的一般方法是什么？Delegate
+
 - swift中 copy-on-write是什么含义
-- 
-
-## types
-### protocol
-
-### struct
+### types
+- 枚举能继承其他类型吗？
 - struct之间可以继承吗？为什么
 - SDK中 String是一个class还是一个struct，
 - 请举一个SDK的class名字（估计不能）
 
-
-### class
-
-### enum
-- 一般应用中， 经常让一个枚举类型派生自一个Int类型，String可以作为枚举类型吗？
-- 枚举能继承其他类型吗？
-- 
-
-## attribute
+### attribute
 - 请举几个swift中常用的属性attribute 
 - autoclosure 的含义和用法
 - escaping的含义
-- 
+## advanced questions
+- swift中不同的lib存在同一个类名字冲突怎么处理？
+
+## code
+
+# swift
 
 ## simple（泛泛的问题，查看谈吐）
 - 请举几个存在memory leak的例子
@@ -55,14 +41,11 @@
 
 # iOS
 ## basic
+KVO 和 KVC分别是什么意思
 
 ## cocoapod
 - 请问cocoapod的最新版本大概是多少
-- cocoapod的制作流程
-
-## autolayout
-- to list autolayout's 缺点
--
+- cocoapod中，我们使用的是编译好的lib还是下载源代码在本地进行的编译
 
 ## thread & safe
 - 在iOS中，如果我们使用UrlSession，在发送网络请求的时候能不能在主线程里面？为什么？
@@ -72,10 +55,8 @@
 ## xcode
 - chisel是什么？
 
+# git
+- 我们有两个branch，当我们从A cherry-pick 某个commit到B，大概有十个文件修改；之后某一天我们把把整个A merge到 B，请问：此时会有冲突提示吗？
+为什么？
+#
 
-##
-KVO 和 KVC分别是什么意思
-
-# computer
-
-# 
