@@ -1,62 +1,61 @@
-# iOS interview 
+# iOS interview questions
+## quick questions 1
+- How to pass data from ViewController back to the previous ViewController? 如何将一个值从一个VC返回给之前的VC？
+- How to import object-C soure code in swift? 在swift中如何引入objective-C的源代码？
+- In Swift, how to get index when using for loop? 在for循环中如何获取index？
+- UITableView default separator height is 1 point? 在UITableView中，默认分割线的高度是1pt？
+- In iOS, when we are using Timer, there needs a Selector, what's is a Selector? 什么是selector？
+- What's dispatch_once?
+- When there is a swift class you want to call from OC, you mark @objc in class or method? @objc是加在类上还是方法名上？
+- NSLog's replacements in Swift? 你知道NSLog的替代方案吗？
+- Shall we always use [unowned self] inside closure in Swift ? Why? 
+- Difference between unowned and weak？unowned 与 weak的区别
+- What's the tintColor in iOS? 
+- What is the 'open' keyword in Swift?
+- How to program a delay in swift or iOS? 如何写一个delay？
+- NSAttributedString 的用途是什么？
+- In a scrollView, how to program to scroll to the bottom of it? 如果用代码把一个scrollView划到底部？
+- What version is the latest Cocoapod?
+- I have written a library in Swift and I want to import to a objecitve-C project, how to implement?
+
 ## warm-up questions
 - 请举几个国外的iOS常用分享知识和学习的网站
 - Autolayout的缺点
 - 你怎么让ViewController代码变得简单和干净
 - 请简单描述如果在swift引用objective-C代码
+- 请问swift的SDK中大概包含哪些？
+- 请问如何应用第三方lib？你知道几种方式
+- iOS里面有一个叫Foundation的模块，这个的作用是什么？
+- 请解释一下iOS中Bundle的概念
 
-## quick questions
-### key words
+## quick questions 2
 - 关键字 required 的含义和使用场景
 - 关键字 optional 的使用场景
 - oneInstance?.oneMethod?()
 - if case 使用的在什么地方
 - protocol MyNameDelegate: Class {} 的含义是什么
-- 两个ViewController之间进行参数传递的一般方法是什么？Delegate
-
+- 两个ViewController之间进行参数传递的一般方法是什么？
 - swift中 copy-on-write是什么含义
-### types
+- 在过去的一段时间，apple 的审核要求不能使用UIWebView而是使用WKWebView，请问WKWebView大概在那个iOS版本被引入的？
+- swift ABI, what's that? 
+- 在Siwft中如果不加以说明，一个类的父类总是NSObject，是还是不是？为什么？
+- 在Swift中有一个Result<Success<Success, Failure>，请问这是一个class还是一个struct？
 - 枚举能继承其他类型吗？
 - struct之间可以继承吗？为什么
-- SDK中 String是一个class还是一个struct，
+- SDK中 String是一个class还是一个struct？
 - 请举一个SDK的class名字（估计不能）
-
-### attribute
-- 请举几个swift中常用的属性attribute 
+- 请举几个swift中常用的属性attribute 
 - autoclosure 的含义和用法
-- escaping的含义
-## advanced questions
+- @escaping 的含义
 - swift中不同的lib存在同一个类名字冲突怎么处理？
-
-## code
-
-# swift
-
-## simple（泛泛的问题，查看谈吐）
-- 请举几个存在memory leak的例子
-- 请举几个让程序crash的例子
-- 你怎么让ViewController代码变得简单和干净
-- 请举几个国外的iOS常用分享知识和学习的网站
-
-
-# iOS
-## basic
-KVO 和 KVC分别是什么意思
-
-## cocoapod
-- 请问cocoapod的最新版本大概是多少
-- cocoapod中，我们使用的是编译好的lib还是下载源代码在本地进行的编译
-
-## thread & safe
+- KVO 和 KVC分别是什么意思
+- swizzled
 - 在iOS中，如果我们使用UrlSession，在发送网络请求的时候能不能在主线程里面？为什么？
 - runLoop是什么以及使用场景
-- offscreen rendering是什么意思？怎么避免
-- 
-## xcode
+- offscreen rendering是什么意思？怎么避免？
 - chisel是什么？
 
-# git
-- 我们有两个branch，当我们从A cherry-pick 某个commit到B，大概有十个文件修改；之后某一天我们把把整个A merge到 B，请问：此时会有冲突提示吗？
-为什么？
-#
-
+## questions for git
+- Becasue there are conflicts when you try to merge, you want to not merge any more, so you choose a command?
+- How to delete a remote branch?
+- How to show which files have changed between two revisions/commits?
