@@ -13,3 +13,12 @@ $ brew install go
 $ go env
 $ go version
 ```
+
+## build
+```
+$ go build xx.go
+
+```
+
+## tools
+- Visual Studio Code has plugin for Go
