@@ -1,5 +1,5 @@
 brew install go
 
 ## test
-$ go env
-$ go version
+- $ go env
+- $ go version
